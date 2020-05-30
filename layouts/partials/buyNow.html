@@ -1,0 +1,36 @@
+{{ if .Site.Data.homepage.buyNow.enable }}
+<section class="section rad-animation-group pb-0" id="buyNow">
+  <div class="container">
+    <h2 class=" rad-animation-group rad-fade-down">
+      {{ .Site.Data.homepage.buyNow.title }}
+    </h2>
+    <p class="lead rad-animation-group rad-fade-down">
+      {{ .Site.Data.homepage.buyNow.subtitle }}
+    </p>
+  </div>
+  <div class="container rad-fade-down">
+    <div class="row d-flex flex-md-row align-items-start">
+      <div class="buyNow__profile-picture col-12 col-md-6 mt-0 text-center">
+        <img class="book-cover lozad img-responsive image-left-overflow"
+          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+          data-src="{{ .Site.Data.homepage.buyNow.image.x | absURL }}"
+          data-srcset="{{ .Site.Data.homepage.buyNow.image.x | absURL }} 1x, {{ .Site.Data.homepage.buyNow.image._2x | absURL }} 2x"
+          alt="Profile Picture" />
+      </div>
+      <div class="col-12 col-md-6 my-auto my-auto">
+        <p class="lead">
+          {{ .Site.Data.homepage.buyNow.content | safeHTML }}
+        </p>
+        <button href="{{ .Site.Data.homepage.buyNow.button.URL | absURL }}"
+          class='{{cond (eq (.Site.Data.homepage.buyNow.button.isSnipCart) true) "snipcart-add-item" "" }}  btn btn-primary'
+          {{if .Site.Data.homepage.buyNow.button.isSnipCart}} data-item-id="oxford-book" data-item-price="14.99"
+          data-item-url="/" data-item-description="{{ .Site.Data.homepage.buyNow.subtitle}}"
+          data-item-image={{ .Site.Data.homepage.buyNow.image.x | absURL }} data-item-name="The Starry Night" {{end}}>
+          <i class="{{ .Site.Data.homepage.buyNow.button.icon }}"></i>
+          {{ .Site.Data.homepage.buyNow.button.btnText }}
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
