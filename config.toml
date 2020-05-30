@@ -41,7 +41,7 @@ theme = "raditian-free-hugo-theme"
 
   [[menu.header]]
   name = "The first 10 pages"
-  URL = "#contact"
+  URL = "#"
   weight = 5
 
  [[menu.footer]]
@@ -61,7 +61,7 @@ theme = "raditian-free-hugo-theme"
 
   [[menu.footer]]
   name = "The first 10 pages"
-  URL = "#contact"
+  URL = "#"
   weight = 5
 
 
