@@ -1,0 +1,27 @@
+{{ if .Site.Data.homepage.aboutBook.enable }}
+<section id="aboutBook" class="section rad-animation-group section--border-bottom">
+    <div class=" rad-animation-group  rad-fade-down container justify-content-center">
+        <h2 class="rad-fade-down">{{ .Site.Data.homepage.aboutBook.title }}</h2>
+        <div class="row row--padded mb-0 rad-fade-down justify-content-center">
+        </div>
+        <h4 class="rad-fade-down text-lg-center" style="padding-bottom: 50px;">
+            {{ .Site.Data.homepage.aboutBook.subtitle }}</h4>
+        <div class="row mb-0 rad-fade-down">
+            {{ range .Site.Data.homepage.aboutBook.items }}
+            <div class="col-12 col-md-3 mb-5 mb-md-0 aboutBook">
+                <i class="icon-quote"></i>
+                <p>
+                    {{ .content }}
+                </p>
+            </div>
+            {{ end }}
+        </div>
+        <div class="row row--padded mb-0 rad-fade-down justify-content-center">
+            <div class="col-12 col-md-8 col-lg-6 aboutBook">
+                <h4 class="text-md-center">{{.Site.Data.homepage.aboutBook.header}}</h4>
+                <p style="text-align:left;">{{.Site.Data.homepage.aboutBook.body  | safeHTML}}</p>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
