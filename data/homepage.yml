@@ -43,7 +43,7 @@ aboutBook:
 
 # education
 education:
-  enable: true
+  enable: false
   title: "Education"
   items:
     - university: "University of Waterloo"
@@ -56,7 +56,7 @@ education:
 
 # experience
 experience:
-  enable: true
+  enable: false
   title: "Experience"
   description: "Over 15+ years of experience working with companies from all over the world. I design & develop digital products to help businesses and improve people's lives."
   button:
@@ -163,7 +163,7 @@ buyNow:
     
 # contact
 contact:
-  enable: true
+  enable: false
   title: "Contact"
   form:
     method: "POST"
@@ -186,7 +186,7 @@ contact:
 
 # newsletter
 newsletter:
-  enable: true
+  enable: false
   title: "Newsletter subscription"
   success_message: "Successfully subscribed"
   error_message: "Error while subscribing."
