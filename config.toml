@@ -21,12 +21,12 @@ theme = "raditian-free-hugo-theme"
   [[params.plugins.js]]
   URL = "js/library/fontfaceobserver.js"
 
-# navigation
+
 [menu]
 
   [[menu.header]]
   name = "About the Book"
-  URL = "#about"
+  URL = "#aboutBook"
   weight = 2
 
   [[menu.header]]
@@ -35,8 +35,8 @@ theme = "raditian-free-hugo-theme"
   weight = 3
 
   [[menu.header]]
-  name = "Prepare Smart. Buy the Book Today"
-  URL = "#contact"
+  name = "Start Today"
+  URL = "#buyNow"
   weight = 4
 
   [[menu.header]]
@@ -46,7 +46,7 @@ theme = "raditian-free-hugo-theme"
 
  [[menu.footer]]
   name = "About the Book"
-  URL = "#about"
+  URL = "#aboutBook"
   weight = 2
 
   [[menu.footer]]
@@ -55,8 +55,8 @@ theme = "raditian-free-hugo-theme"
   weight = 3
 
   [[menu.footer]]
-  name = "Prepare Smart. Buy the Book Today"
-  URL = "#contact"
+  name = "Start Today"
+  URL = "#buyNow"
   weight = 4
 
   [[menu.footer]]
@@ -64,19 +64,15 @@ theme = "raditian-free-hugo-theme"
   URL = "#contact"
   weight = 5
 
+
 [params]
 
-  sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
+  sections = ["showcase", "aboutBook",  "aboutMe", "buyNow", "education", "experience","contact", "newsletter"]
 
   googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
 
-  [params.logo]
+[params.logo]
     text1 = "Get Into UK law School"
     text2 = ""
-
-  [params.footer]
+    [params.footer]
       copyright = "© Aaron Leong. All rights reserved."
-      [params.footer.radity_logo]
-        x = "img/general/design-and-code-radity.png"
-        _2x = "img/general/design-and-code-radity@2x.png"
-        alt = "Design & Code - Radity"

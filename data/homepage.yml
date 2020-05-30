@@ -10,7 +10,7 @@ showcase:
   description: "The only Guide you'll ever need for Law admissions into Oxbridge, UCL, LSE, KCL and the likes "
   backgroundImage:
     x: "img/showcase/bg.png"
-    _2x: "img/showcase/bg.png"
+    _2x: "img/showcase/bg2x.png"
     alt: "Showcase keyboard and mouse image"
   backgroundImageMobile:
     x: "img/showcase/showcase-mobile.png"
@@ -21,27 +21,25 @@ showcase:
     btnText: "BUY NOW"
     URL: "https://radity.com/en/contact/"
 
-# about
-about:
+# testimonial
+aboutBook:
   enable: true
-  title: "Who am I?"
-  content: '<p class="lead">
-    I am back, after a few days of vacationing with family. Weather was awesome, the beach was
-    full of nasty jelly-fish, yuk! All-in-all, life has been good. I hope life has been as
-    good for all of you.
+  title: "About the book"
+  subtitle: "Have you ever..."
+  items:
+    - content: "Picked up an admissions guide book, only to find one chapter generically useful?"
+    - content: "Tried finding LNAT practices of the same standard as the official practice tests?"
+    - content: "Wondered how to write a UCAS personal statement?"
+    - content: "Been unsure and afraid of the Oxbridge interview process?"
+  header:
+    "I have, and I'm here to help."
+  body: "<p class='lead'>
+    Time and money shouldn't go to waste, especially on guide books that waste precious space telling you things you don't need, or generic advice that applies to all courses.
     </p>
-    <p class="lead">
-    My area of focus lies in designing web and mobile products, user research as well as
-    leading of design & front-end teams. I enjoy designing and coding the UI as much as
-    talking with users to iterate and improve the experiences that reach business goals.
-    </p>'
-  button:
-    icon: "icon-smile-fill"
-    btnText: "About Me"
-    URL: "https://www.linkedin.com/company/radity/"
-  image:
-    x: "img/who-am-i/user-picture.png"
-    _2x: "img/who-am-i/user-picture@2x.png"
+    <p class='lead'>
+    This book will tell you what you need and might want to know about applying to the top UK Law schools. Considerations to make while choosing a university, your application timeline, how to write personal statements, preparing for the LNAT, Oxbridge interviews and other Oxbridge specific advice.
+    </p>"
+
 
 # education
 education:
@@ -84,101 +82,84 @@ experience:
       duration: "Jun 2009 - Mar 2010"
 
 # Client & Work
-client_and_work:
-  title: "Clients & Works"
+aboutMe:
+  title: "About Me"
   enable: true
 
-  clients:
+  schools:
     - logo:
-        x: "img/clients/asgardia.png"
-        _2x: "img/clients/asgardia@2x.png"
-      alt: "Asgardia"
+        x: "img/schools/oxford.png"
+        _2x: "img/schools/oxford2x.png"
+      alt: "Oxford"
 
     - logo:
-        x: "img/clients/earth-2.png"
-        _2x: "img/clients/earth-2@2x.png"
-      alt: "Earth 2.0"
+        x: "img/schools/lse.png"
+        _2x: "img/schools/lse2x.png"
+      alt: "London School Of Economics"
 
     - logo:
-        x: "img/clients/goldline.png"
-        _2x: "img/clients/goldline@2x.png"
-      alt: "Goldline"
+        x: "img/schools/kings.png"
+        _2x: "img/schools/kings2x.png"
+      alt: "King's College London"
 
     - logo:
-        x: "img/clients/kanba.png"
-        _2x: "img/clients/kanba@2x.png"
-      alt: "Kanba"
+        x: "img/schools/durham.png"
+        _2x: "img/schools/durham2x.png"
+      alt: "Durham"
 
     - logo:
-        x: "img/clients/zoo-tv.png"
-        _2x: "img/clients/zoo-tv@2x.png"
-      alt: "Zoo"
-
-    - logo:
-        x: "img/clients/ztos.png"
-        _2x: "img/clients/ztos@2x.png"
-      alt: "Ztos"
+        x: "img/schools/ucl.png"
+        _2x: "img/schools/ucl2x.png"
+      alt: "University College London"
 
   works:
-    - title: "Radity Finance - UI Kit"
-      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
+    - title: "I'm here to make sure you don't make the same mistakes I did."
+      description: "<p class = 'lead'>
+      I’m a student from Singapore, and studying law at Oxford has always been a dream of mine. I scored fairly averagely in the International Baccalaureate (42), borrowed and bought all the admission and LNAT guide books I could, and was rejected by Oxford and LSE on my first try. Oxford, LSE, UCL, KCL and Durham accepted my second application.
+      </p> 
+      <p class = 'lead'>
+      This book details what I learnt in the intervening year between my applications. Not everyone gets a second try at Oxbridge and the likes, so I'll explore everything I did wrong my first go around, and everything right in my second. Focusing on passion over academics in my personal statement, doing the wrong LNAT practices, spending too much time preparing what was not asked in the interview - I'm here to make sure you don't do any of that, but instead spend your time engaging in useful preparation.\
+      </p>
+      <p class = 'lead'>
+      I list and explain the components of a good personal statement along with an example, how and where to acquire good practices for the LNAT, provide a depository of likely Oxbridge interview questions and possible answers to them, and detail my personal experiences with these components so you know what to expect.
+      </p>
+      <p class = 'lead'>
+      For Oxbridge hopefuls, I provide some admission tips - the famous Oxford-Cambridge cycle, applying to some colleges over others, international students college selection rumours etc.
+      </p>
+      <p class = 'lead'>
+      Note: Since my experience comprises a majority of the book, it focuses on school's I'm familiar with - Oxford, Cambridge LSE, UCL, KCL, Durham, Warwick, Edinburgh etc. Note that since I've never taken the Cambridge Law Test, it will not be covered.
+      </p>"
+     
       image:
-        x: "img/works/radity-finance.jpg"
-        _2x: "img/works/radity-finance@2x.jpg"
-      is_even: true
-
-    - title: "Swiss Fintech Website"
-      description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
-      image:
-        x: "img/works/swissfintech.jpg"
-        _2x: "img/works/swissfintech@2x.jpg"
+        x: "img/aboutMe/about_me_proof.webp"
+        _2x: "img/aboutMe/about_me_proof.webp"
       is_even: false
 
-    - title: "Robo Advisor"
-      description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
-      image:
-        x: "img/works/robo-advisor.jpg"
-        _2x: "img/works/robo-advisor@2x.jpg"
-      is_even: true
-
-# testimonial
-testimonial:
+# about
+buyNow:
   enable: true
-  title: "Testimonials"
-  items:
-    - name: "Daniel Jordan"
-      position: "Phonet, CEO"
-      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
-      image:
-        x: "img/testimonials/daniel-jordan.jpg"
-        _2x: "img/testimonials/daniel-jordan@2x.jpg"
+  title: "Prepare Smart. Start Today."
+  subtitle: "Get Your Guide to Entering the Top UK Law Schools. "
+  content: "<p class='lead'>
+    We're not here to waste time or money. We're here to read law in a reputable UK university, and there's no better place to start than here.
+    </p>
+    <p class = 'lead'>
+    For a limited time only: <br>
+    <strong>£14.99</strong> <del>£20.00</del>
 
-    - name: "Jonathan Peters"
-      position: "Textic, CEO"
-      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
-      image:
-        x: "img/testimonials/jonathan-peters.jpg"
-        _2x: "img/testimonials/jonathan-peters@2x.jpg"
+    </p>
+    <p class='lead'>
+    Buy now and receive a PDF copy of the book along with other relevant materials within 24 hours!
+    </p>"
+  button:
+    icon: "icon-smile-fill"
+    btnText: "Buy Now"
+    URL: "https://www.linkedin.com/company/radity/"
+  image:
+    x: "img/buyNow/book_cover.png"
+    _2x: "img/buyNow/book_cover2x.png"
 
-    - name: "Antonio Willis"
-      position: "Cyberse, CEO"
-      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
-      image:
-        x: "img/testimonials/antonio-willis.jpg"
-        _2x: "img/testimonials/antonio-willis@2x.jpg"
-
+    
 # contact
 contact:
   enable: true
