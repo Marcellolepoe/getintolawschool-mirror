@@ -18,8 +18,8 @@ showcase:
 
   button:
     icon: "icon-mail-fill"
-    btnText: "BUY NOW"
-    URL: "https://radity.com/en/contact/"
+    btnText: "GET THE GUIDE"
+    URL: "#buyNow"
 
 # testimonial
 aboutBook:
@@ -152,9 +152,10 @@ buyNow:
     Buy now and receive a PDF copy of the book along with other relevant materials within 24 hours!
     </p>"
   button:
-    icon: "icon-smile-fill"
+    icon: "icon-mail-fill"
     btnText: "Buy Now"
-    URL: "https://www.linkedin.com/company/radity/"
+    URL: ""
+    isSnipCart: true
   image:
     x: "img/buyNow/book_cover.png"
     _2x: "img/buyNow/book_cover2x.png"
