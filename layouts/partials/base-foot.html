@@ -46,6 +46,23 @@
   })(this);
 </script>
 <script>
+  document.querySelector(".snipcart-add-item").addEventListener("click", test);
+
+  function test() {
+    var element = document.querySelector(".header");
+    element.style.visibility = 'hidden';
+    setTimeout(function () {
+      document.querySelector(".snipcart-cart-header__close-button").addEventListener("click", visible);
+    }, 500)
+  }
+
+  function visible() {
+    var element = document.querySelector(".header");
+    element.style.visibility = 'visible';
+    document.querySelector(".snipcart-modal__close").removeEventListener("click", visible);
+  }
+</script>
+<script>
   const scroll = new SmoothScroll('a[href*="#"]');
   $('a.nav-link').on('click', () => {
     const navbar = $('.navbar-collapse');
