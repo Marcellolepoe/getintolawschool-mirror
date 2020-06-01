@@ -53,6 +53,7 @@
     element.style.visibility = 'hidden';
     setTimeout(function () {
       document.querySelector(".snipcart-cart-header__close-button").addEventListener("click", visible);
+      document.querySelector(".snipcart-cart__checkout-button").addEventListener("click", test);
     }, 500)
   }
 
@@ -60,6 +61,7 @@
     var element = document.querySelector(".header");
     element.style.visibility = 'visible';
     document.querySelector(".snipcart-modal__close").removeEventListener("click", visible);
+    // snipcart - cart - header__close - button snipcart - modal__close
   }
 </script>
 <script>
