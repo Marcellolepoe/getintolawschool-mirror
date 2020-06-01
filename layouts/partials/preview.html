@@ -1,0 +1,25 @@
+{{ if .Site.Data.homepage.preview.enable }}
+<section id="preview" class="section section--contact pt-0">
+    <div class="container">
+        <div class="contact">
+            <div class="row pt-2">
+                <h2>{{ .Site.Data.homepage.preview.title }}</h2>
+                <p class='lead'>{{ .Site.Data.homepage.preview.subtitle }}</p class='lead'>
+                <!-- <div class="col-12 col-lg-7">
+                    <img class='lozad img-responsive'
+                        src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                        data-src="{{ .Site.Data.homepage.preview.image.x | absURL }}"
+                        data-srcset="{{ .Site.Data.homepage.preview.image.x | absURL }} 1x, {{ .Site.Data.homepage.preview.image._2x | absURL }} 2x"
+                        alt="{{ .Site.Data.homepage.preview.title }}" />
+                </div> -->
+                <div class="col-12 col-lg-5">
+                    <a class="btn btn-primary" href="{{.Site.Data.homepage.preview.button.target}}" target="_blank">
+                        <i class="{{ .Site.Data.homepage.preview.button.icon }}"></i>
+                        {{ .Site.Data.homepage.preview.button.btnText }}
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

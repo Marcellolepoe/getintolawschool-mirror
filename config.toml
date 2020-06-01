@@ -41,7 +41,7 @@ theme = "raditian-free-hugo-theme"
 
   [[menu.header]]
   name = "The first 10 pages"
-  URL = "#"
+  URL = "#preview"
   weight = 5
 
  [[menu.footer]]
@@ -61,13 +61,13 @@ theme = "raditian-free-hugo-theme"
 
   [[menu.footer]]
   name = "The first 10 pages"
-  URL = "#"
+  URL = "#preview"
   weight = 5
 
 
 [params]
 
-  sections = ["showcase", "aboutBook",  "aboutMe", "buyNow", "education", "experience","contact", "newsletter"]
+  sections = ["showcase", "aboutBook",  "aboutMe", "buyNow", "preview"]
 
   googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
 
