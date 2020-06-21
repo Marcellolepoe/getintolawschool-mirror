@@ -1,4 +1,4 @@
-baseURL = "https://getintouklaw.netlify.app/"
+baseURL = "https://github.com/exampleuser/old-repository.git/"
 languageCode = "en-us"
 theme = "raditian-free-hugo-theme"
 
@@ -75,4 +75,4 @@ theme = "raditian-free-hugo-theme"
     text1 = "Get Into UK law School"
     text2 = ""
     [params.footer]
-      copyright = "© Aaron Leong. All rights reserved."
+      copyright = "© getinlawschool. All rights reserved."
