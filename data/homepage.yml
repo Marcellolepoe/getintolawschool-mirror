@@ -144,11 +144,11 @@ buyNow:
     We're not here to waste time or money. We're here to read law in a reputable UK university, and there's no better place to start than here.
     </p>
     <p class = 'lead'>
-    Special Promotion!: <br>
+    For a limited time only: <br>
     <strong>£14.99</strong> <del>£20.00</del>
     </p>
     <p class='lead'>
-    Buy now and receive a PDF copy of the book along with other relevant materials instantly!
+    Buy now and receive a PDF copy of the book along with other relevant materials within 24 hours!
     </p>"
   button:
     icon: "icon-mail-fill"
@@ -164,7 +164,7 @@ buyNow:
 preview:
   enable: true
   title: "The First 10 Pages."
-    subtitle: "Take a look! Includes the Contents Page, Preface and part of the Introduction."
+  subtitle: "Take a look! Includes the Contents Page, Preface and part of the Introduction."
   image:
     x: "img/buyNow/book_cover.png"
     _2x: "img/buyNow/book_cover2x.png"
