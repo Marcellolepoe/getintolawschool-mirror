@@ -164,7 +164,7 @@ buyNow:
 preview:
   enable: true
   title: "The First 10 Pages."
-  subtitle: "Take a look! Includes the Contents Page, Preface and part of the Introduction."
+    subtitle: "Take a look! Includes the Contents Page, Preface and part of the Introduction."
   image:
     x: "img/buyNow/book_cover.png"
     _2x: "img/buyNow/book_cover2x.png"
