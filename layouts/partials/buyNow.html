@@ -23,10 +23,14 @@
         </p>
         <button href="{{ .Site.Data.homepage.buyNow.button.URL | absURL }}"
           class='{{cond (eq (.Site.Data.homepage.buyNow.button.isSnipCart) true) "snipcart-add-item" "" }}  btn btn-primary'
-          {{if .Site.Data.homepage.buyNow.button.isSnipCart}} data-item-id="oxford-book" data-item-price="14.99"
-          data-item-url="/" data-item-description="{{ .Site.Data.homepage.buyNow.subtitle}}"
-          data-item-image={{ .Site.Data.homepage.buyNow.image.x | absURL }} data-item-name="The Starry Night" {{end}}>
-          <i class="{{ .Site.Data.homepage.buyNow.button.icon }}"></i>
+          {{if .Site.Data.homepage.buyNow.button.isSnipCart}} 
+          data-item-id="The only guide you'll need." data-item-price="14.99"
+          data-item-url="/" 
+          data-item-description="{{ .Site.Data.homepage.buyNow.subtitle}}" 
+          data-item-max-quantity="1" 
+          data-item-file-guid="82560fb6-0d41-40b3-8d74-c0aaf6354940"
+          data-item-image={{ .Site.Data.homepage.buyNow.image.x | absURL }} data-item-name="Your Guide to Entering The Top UK Law Schools" {{end}}>
+          <i class="{{ .Site.Data.homepage.buyNow.button.icon }}"></i> d
           {{ .Site.Data.homepage.buyNow.button.btnText }}
         </button>
       </div>
