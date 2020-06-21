@@ -34,10 +34,10 @@ aboutBook:
   header:
     "I have, and I'm here to help."
   body: "<p class='lead'>
-    Time and money shouldn't go to waste, especially on guide books that waste precious space telling you things you don't need, or generic advice that applies to all courses.
+    Time and money shouldn't go to waste, especially on guide books that waste precious space telling you things you don't need, or generic advice that applies to all courses but helps no one.
     </p>
     <p class='lead'>
-    This book will tell you what you need and might want to know about applying to the top UK Law schools. Considerations to make while choosing a university, your application timeline, how to write personal statements, preparing for the LNAT, Oxbridge interviews and other Oxbridge specific advice.
+    This book will tell you what you need and might want to know about applying to the top UK Law schools - considerations to make while choosing a university, your application timeline, how to write personal statements, preparing for the LNAT, Oxbridge interviews and other Oxbridge specific advice.
     </p>"
 
 
@@ -170,8 +170,8 @@ preview:
     _2x: "img/buyNow/book_cover2x.png"
   button:
     icon: "icon-mail-fill"
-    btnText: "Be wowed"
-    target: "pdf/dummy.pdf"
+    btnText: "It's Free!"
+    target: "pdf/Sample.pdf"
 
 # newsletter
 newsletter:
