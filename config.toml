@@ -1,4 +1,4 @@
-baseURL = "https://github.com/exampleuser/old-repository.git/"
+baseURL = "https://getintouklaw.netlify.app/"
 languageCode = "en-us"
 theme = "raditian-free-hugo-theme"
 
@@ -72,7 +72,8 @@ theme = "raditian-free-hugo-theme"
   googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
 
 [params.logo]
-    text1 = "Get Into UK law School"
+    text1 = "Get into a Top UK Law School Today!"
     text2 = ""
     [params.footer]
       copyright = "© getinlawschool. All rights reserved."
+

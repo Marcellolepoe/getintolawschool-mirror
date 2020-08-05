@@ -17,7 +17,6 @@ showcase:
     alt: "Showcase keyboard and mouse image"
 
   button:
-    icon: "icon-mail-fill"
     btnText: "GET THE GUIDE"
     URL: "#buyNow"
 
@@ -34,7 +33,7 @@ aboutBook:
   header:
     "I have, and I'm here to help."
   body: "<p class='lead'>
-    Time and money shouldn't go to waste, especially on guide books that waste precious space telling you things you don't need, or generic advice that applies to all courses but helps no one.
+    Time and money shouldn't go to waste, especially on guide books that waste precious space telling you things you don't need, or generic advice that applies to all courses but helpful for none. Buy into a focused guide that takes you exactly where you want to go.
     </p>
     <p class='lead'>
     This book will tell you what you need and might want to know about applying to the top UK Law schools - considerations to make while choosing a university, your application timeline, how to write personal statements, preparing for the LNAT, Oxbridge interviews and other Oxbridge specific advice.
@@ -148,10 +147,9 @@ buyNow:
     <strong>£14.99</strong> <del>£20.00</del>
     </p>
     <p class='lead'>
-    Buy now and receive a PDF copy of the book along with other relevant materials within 24 hours!
+    Buy now and receive a PDF copy of the book along with other relevant materials instantly!
     </p>"
   button:
-    icon: "icon-mail-fill"
     btnText: "Buy Now"
     URL: ""
     isSnipCart: true
@@ -163,14 +161,13 @@ buyNow:
 # preview
 preview:
   enable: true
-  title: "The First 10 Pages."
-  subtitle: "Take a look! Includes the Contents Page, Preface and part of the Introduction."
+  title: "The First 15 Pages."
+  subtitle: "Please download a free sample of the first 15 pages of the book! Includes Contents, Preface, and part of the Introduction." 
   image:
     x: "img/buyNow/book_cover.png"
     _2x: "img/buyNow/book_cover2x.png"
   button:
-    icon: "icon-mail-fill"
-    btnText: "It's Free!"
+    btnText: "Download the Sample Here!"
     target: "pdf/Sample.pdf"
 
 # newsletter
