@@ -1,7 +1,8 @@
 # homepage
 homepage:
+  enable: true 
   head:
-    title: "Home | Raditian"
+    title: Get into a UK Law school today!
 # showcase
 showcase:
   enable: true
